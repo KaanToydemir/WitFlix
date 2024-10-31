@@ -1,0 +1,175 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+header {
+
+  margin: 0px;
+  background-color: whitesmoke;
+  color: red;
+  align-items: center;
+  justify-content: space-around;
+}
+
+h1 {
+  font-family: Inter;
+  font-size: 85px;
+  font-weight: 800;
+  line-height: 157.33px;
+  text-align: left;
+
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  height: 80px;
+  padding: 4vh;
+  }
+
+nav a {
+    padding: 5vh;
+  color: black;
+  text-decoration: none;
+}
+
+.topnav {
+  display: flex;
+  padding: 10%;
+}
+
+.banner-section {
+
+  width: 1680px;
+  height: 650px;
+  top: 224px;
+  left: 17px;
+  gap: 0px;
+  opacity: 0px;
+
+  margin: 1% auto;
+  background-image: url(wallpapersden.com_the-matrix-1_1920x1080.jpg);
+   
+}
+
+.banner-section button {
+
+    align-content: flex-end;
+    margin: 5%;
+    padding: 1vh;
+    color: whitesmoke;
+    background-color: red;
+    font-size: 16px;
+    border: 2px solid red;
+    border-radius: 20px;
+    cursor: pointer;
+      
+  }
+
+  .banner-section button:hover {
+    background-color: white;
+    color: red;
+    transition-duration: 0.6s;
+    border: 2px solid white;
+    cursor: pointer;
+  }
+
+    .banner-section h2{
+    color: white;
+    font-size: 64px;
+    padding: auto;
+    width: 200px;
+    height: 10px;
+    text-align: justify;
+    
+  }
+  .banner-section ul {
+    padding: 50px;
+    margin: 50px;
+    color: red;
+  }
+
+  .banner-section p{
+    color: white;
+    padding: 100px;
+    width: 600px;
+    height: 10px;
+    text-align: justify;
+    
+  }
+
+  .avatar {
+    vertical-align: middle;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    margin: 100px;
+    cursor: pointer;
+  }
+  
+  .projects-section nav{
+    width: 1000px;
+    height: 10px;
+  }
+
+  .popular-movies {
+    width: 1680px;
+    height: 401px;
+    top: 337px;
+    left: -880px;
+    gap: 0px;
+    opacity: 0px;
+    background-color: white;
+    margin: 110px;
+    
+  }
+
+  .projects-section{
+    display: inline-block;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    text-align: center;
+    row-gap: 30px;
+    display: flex;
+    
+  }
+
+
+  .projects-item {
+    display: inline-block;
+  }
+
+  .projects-item img {
+    align-items: center;               
+  }
+
+  footer {
+    width: 100%;
+    background: whitesmoke;
+    padding: 6vh 0;
+    width: 572px;
+    height: 109px;
+    top: 624px;
+    left: 2469px;
+    gap: 0px;
+    opacity: 0px;
+
+  }
+
+
+  footer .nav {
+    color: black;
+    text-decoration: none;
+    text-align: center;
+    margin: -70px;
+    padding: 10px;
+  }
+  
+  footer .nav li {
+    display: inline-block;
+    font-size: 20px;
+    padding: 25px;
+    margin: 0px;
+  }
